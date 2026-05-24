@@ -41,6 +41,10 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
           content: "width=device-width, initial-scale=1",
         },
         {
+          name: "google-adsense-account",
+          content: "ca-pub-5560499268370783",
+        },
+        {
           title: loaderData?.siteConfig?.title,
         },
         {
